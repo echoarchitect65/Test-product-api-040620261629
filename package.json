@@ -1,0 +1,27 @@
+{
+  "name": "test-product-api-040620261629",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk",
+    "deploy": "cdk deploy --require-approval never",
+    "synth": "cdk synth"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1024.0",
+    "@aws-sdk/lib-dynamodb": "^3.1024.0",
+    "@types/node": "^25.5.2",
+    "aws-cdk-lib": "^2.248.0",
+    "constructs": "^10.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
